@@ -1,0 +1,17 @@
+public class lb13{
+public static void main(String args[]){
+int c=0,rem,i;
+int input = 292;
+String str=Integer.toString(input);
+System.out.println(str.charAt(0));
+System.out.println(str.charAt(1));
+System.out.println(str.charAt(2));
+System.out.println(str.length());
+for(i=1;i<str.length();i++) {
+	if(str.charAt(i)!=str.charAt(i+1)) {
+		c++;
+	}
+}
+System.out.println(c);
+}
+}

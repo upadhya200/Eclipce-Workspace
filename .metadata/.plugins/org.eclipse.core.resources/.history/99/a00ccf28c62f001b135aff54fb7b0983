@@ -1,0 +1,10 @@
+public class lb13{
+public static void main(String args[]){
+
+int c=0,r = 0,i;
+int input = 292;
+String str=Integer.toString(input);
+char[] ch=str.toCharArray();
+System.out.println(ch);
+}
+}

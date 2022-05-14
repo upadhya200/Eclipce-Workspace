@@ -1,0 +1,9 @@
+
+public class lb7 {
+public static void main(String[] args) {
+int n1=10,n2 = 20,count=0,j,i;
+for(i=1;i<=n1;i++) {
+	
+}
+}
+}

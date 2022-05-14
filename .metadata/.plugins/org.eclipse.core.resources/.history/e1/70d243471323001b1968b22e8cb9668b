@@ -1,0 +1,12 @@
+public class j7 
+{ 
+static int i = 1; 
+public static void main(String[] args)  
+{ 
+if (i <= 100) 
+{ 
+System.out.printf("%d ln", i++); 
+main(null); 
+} 
+} 
+} 

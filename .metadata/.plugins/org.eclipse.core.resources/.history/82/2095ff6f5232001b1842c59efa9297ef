@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class lb14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n,m;
+		System.out.println("Enter two no");
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		m=sc.nextInt();
+		System.out.println(m-n);
+	}
+
+}

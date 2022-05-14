@@ -1,0 +1,20 @@
+import java.util.*; 
+import java.lang.*; 
+  
+public class j2{ 
+      
+    // Find the first digit 
+      // Find the last digit 
+    public static int last(int n) 
+    { 
+        // return the last digit 
+        return (n % 10); 
+    } 
+      
+    // driver function 
+    public static void main(String argc[]) 
+    { 
+        int n = 98562; 
+        System.out.println(last(n)); 
+    } 
+} 

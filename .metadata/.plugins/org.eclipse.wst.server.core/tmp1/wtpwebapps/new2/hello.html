@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<style type="text/css">
+		div{
+position: absolute;
+top: 100px;
+left: 500px;
+height: 100px;
+width: 300px;
+border: 5px solid green;
+border-radius: 10px;
+}
+	</style>
+</head>
+<body>
+	<form action="HelloServlet" name="hello">
+	<div>
+<table>
+	<tr><td>Username</td><td><input type="text" name=uname></td></tr>
+	<tr><td><input type="Submit" value="Say Hello"  onClick="return loginValidation()"></td></tr>
+</table>
+</div>
+</form>
+<style type="text/javascript">
+function loginValidation(){
+var userName = document.hello.uname.value;
+if(userName==" "){
+alert("Fields Can not be empty");
+return false;
+}
+}
+</style>
+</body>
+</html>
+

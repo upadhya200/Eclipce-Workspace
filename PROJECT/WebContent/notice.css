@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+.notice{
+	display:inline-block;
+	background-color: lightgrey;
+  width: 300px;
+  border: 1px solid green;
+  padding: 10px;
+  margin: 0px;
+}
+.vertical{
+	display:inline-block;
+	background-color: lightgrey;
+  width: 896px;
+  border: 1px solid green;
+  padding: 10px;
+  margin: 0px;
+}
+.aboutus{
+	background-color: lightgrey;
+	width:100%;
+	height:300px;
+	padding:10px;
+}

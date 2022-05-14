@@ -1,0 +1,16 @@
+class me{
+	int n,rem;
+	me(int n) {
+		this.n=n;
+		while(n!=0) {
+			rem=n%10;
+		}
+		System.out.println(rem);
+	}
+}
+class me9{
+	public static void main(String args[]) {
+		me obj=new me(523);
+		
+	}
+}

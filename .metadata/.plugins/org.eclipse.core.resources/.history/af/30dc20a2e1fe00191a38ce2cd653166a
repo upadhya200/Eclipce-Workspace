@@ -1,0 +1,8 @@
+<html>
+<body>
+<form action="welcome.jsp">
+<input page="text" name="Amar">
+<input type="submit"  value="go"><br>
+</form>
+</body>
+</html>

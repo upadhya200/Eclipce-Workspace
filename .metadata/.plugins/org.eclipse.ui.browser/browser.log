@@ -1,0 +1,7 @@
+
+Mar 30, 2021 11:10:08.59 NEW SESSION
+Mar 30, 2021 11:10:08.59 [5436:2232:0330/111008.586:ERROR:device_event_log_impl.cc(214)] [11:10:08.586] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 30, 2021 11:10:08.60 [5436:2232:0330/111008.587:ERROR:device_event_log_impl.cc(214)] [11:10:08.587] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 30, 2021 11:10:08.62 [5436:2232:0330/111008.587:ERROR:device_event_log_impl.cc(214)] [11:10:08.587] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 30, 2021 11:10:08.66 [5436:2232:0330/111008.613:ERROR:device_event_log_impl.cc(214)] [11:10:08.614] Bluetooth: bluetooth_adapter_winrt.cc:1203 Getting Radio failed. Chrome will be unable to change the power state by itself.
+Mar 30, 2021 11:10:08.67 [5436:2232:0330/111008.627:ERROR:device_event_log_impl.cc(214)] [11:10:08.627] Bluetooth: bluetooth_adapter_winrt.cc:1296 OnPoweredRadiosEnumerated(), Number of Powered Radios: 0

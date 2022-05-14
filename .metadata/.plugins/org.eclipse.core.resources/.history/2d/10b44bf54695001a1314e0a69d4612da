@@ -1,0 +1,27 @@
+import java.util.*;
+public class j1
+{
+   public static void main(String [] args)
+   {
+      int x;
+      System.out.println("Enter an integer");
+      Scanner sc=new Scanner(System.in);
+      x=sc.nextInt();
+    if(x!=0)
+    {
+        if(x*1==x)
+        {
+            System.out.println("Positive");
+        }
+        else
+        {
+            System.out.println("Negative");
+        }
+    }
+    else
+    {
+        System.out.println("Zero");
+    }
+      }
+      
+   }

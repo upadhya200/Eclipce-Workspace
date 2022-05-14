@@ -1,0 +1,17 @@
+public class lb10 {
+public static void main(String[] args) {
+	int n1=777888999,n2=445566,n3=123,rem,result=0;
+	while(n1!=0) {
+		rem=n1%10;
+		if(rem==1 || rem==2 || rem==3)
+			result=result+3;
+		else if(rem==4 || rem==5 || rem==6)
+			result=result+2;
+		else if(rem==7 || rem==8 || rem==9)
+			result=result+1;
+		n1=n1/10;
+	}
+	System.out.println(result);
+	
+}
+}

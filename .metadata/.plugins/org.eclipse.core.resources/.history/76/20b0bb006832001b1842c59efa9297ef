@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class lb14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=3,m=4;
+		m=m+n;
+		n=m-n;
+		m=m-n;
+		System.out.println(n+" "+m);
+		
+	}
+
+}

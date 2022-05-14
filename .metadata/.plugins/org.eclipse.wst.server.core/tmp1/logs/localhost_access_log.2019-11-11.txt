@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [11/Nov/2019:22:00:55 +0530] "GET /Department/commerce.jsp HTTP/1.1" 200 7761
+0:0:0:0:0:0:0:1 - - [11/Nov/2019:22:01:13 +0530] "GET /Department/commerce_faculty.jsp HTTP/1.1" 200 12083
+0:0:0:0:0:0:0:1 - - [11/Nov/2019:22:01:18 +0530] "GET /Department/commerce_gallery.jsp HTTP/1.1" 200 9121
+0:0:0:0:0:0:0:1 - - [11/Nov/2019:22:01:40 +0530] "GET /Department/commerce_question.jsp HTTP/1.1" 200 6951
+0:0:0:0:0:0:0:1 - - [11/Nov/2019:22:03:08 +0530] "GET /Department/commerce_fee.jsp HTTP/1.1" 200 6771
+0:0:0:0:0:0:0:1 - - [11/Nov/2019:22:04:44 +0530] "GET /Department/commerce_achievement.jsp HTTP/1.1" 200 6128
+0:0:0:0:0:0:0:1 - - [11/Nov/2019:22:05:07 +0530] "GET /Department/commerce.jsp HTTP/1.1" 200 7761

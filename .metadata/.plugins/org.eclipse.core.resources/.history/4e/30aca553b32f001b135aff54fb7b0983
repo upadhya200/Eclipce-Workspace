@@ -1,0 +1,19 @@
+public class lb13{
+public static void main(String args[]){
+// Read only region end
+int c=0,r = 0,i,input1 = 23;
+int h[]=new int[10];
+while(input1>0){
+r=input1%10;
+h[r]++;
+input1=input1/10;
+}
+System.out.println(h[r]);
+for(i=0;i<10;i++){
+if(h[i]>0){
+c++;
+}
+}
+System.out.println( c);;
+}
+}

@@ -1,0 +1,15 @@
+
+public class lb7 {
+public static void main(String[] args) {
+int i,n=100,pos=10,count=0,count1=0;
+while(count1!=pos) {
+for(i=1;i<=n;i++) {
+if(n%i==0)
+count++;
+if(count++<=2)
+count1++;	
+	}	
+}
+System.out.println(count1);
+}
+}

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class jb{
+	Scanner sc=new Scanner(System.in);
+	int n;
+	void max() {
+		System.out.println("Enter any no:");
+		n=sc.nextInt();		
+        }
+	void min() {
+		
+		if(n%2==0) {
+			System.out.println("Even");
+		}
+	}
+}
+public class lb1 {
+public static void main(String args[]) {
+	jb obj=new jb();
+	obj.max();
+	obj.min();
+}
+}

@@ -1,0 +1,18 @@
+
+public class lb12{
+public static void main(String args[]){
+int c=0,rem,i,j=0;
+int input = 299;
+String str=Integer.toString(input);
+for(i=0;i< str.length();i++) {
+	while(j!=str.length()) {
+		for(j=0;j<str.length();j++) {
+			if(str.charAt(j)!=str.charAt(i)) {
+				c++;
+			}
+		}
+	}
+}
+System.out.println(c);
+}
+}

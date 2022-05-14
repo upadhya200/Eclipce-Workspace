@@ -1,0 +1,5 @@
+127.0.0.1 - - [24/Mar/2021:11:18:13 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [24/Mar/2021:11:18:16 +0530] "GET /spring_project/index.jsp HTTP/1.1" 200 74
+0:0:0:0:0:0:0:1 - - [24/Mar/2021:11:20:35 +0530] "GET /spring_project/index.jsp HTTP/1.1" 200 74
+127.0.0.1 - - [24/Mar/2021:12:17:37 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [24/Mar/2021:12:17:39 +0530] "GET /spring_project/WEB-INF/classes/com/wipro/controller/UserMain.java HTTP/1.1" 404 1047

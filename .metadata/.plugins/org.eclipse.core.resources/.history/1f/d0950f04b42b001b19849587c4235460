@@ -1,0 +1,9 @@
+
+public class lb10 {
+public static void main(String[] args) {
+	int n1=777888999,n2=445566,n3=123,temp,result=0;
+	
+	
+	
+}
+}

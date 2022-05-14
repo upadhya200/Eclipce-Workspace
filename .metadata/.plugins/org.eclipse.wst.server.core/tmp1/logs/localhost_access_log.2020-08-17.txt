@@ -1,0 +1,8 @@
+127.0.0.1 - - [17/Aug/2020:15:00:10 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [17/Aug/2020:15:00:12 +0530] "GET /new1/loginpage.html HTTP/1.1" 200 908
+127.0.0.1 - - [17/Aug/2020:15:06:17 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [17/Aug/2020:15:06:19 +0530] "GET /new1/loginpage.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Aug/2020:15:06:22 +0530] "GET /new1/LoginServlet?uname=&pwd= HTTP/1.1" 200 61
+0:0:0:0:0:0:0:1 - - [17/Aug/2020:15:06:27 +0530] "GET /new1/LoginServlet?uname=&pwd= HTTP/1.1" 200 61
+0:0:0:0:0:0:0:1 - - [17/Aug/2020:15:06:31 +0530] "GET /new1/LoginServlet?uname=&pwd= HTTP/1.1" 200 61
+0:0:0:0:0:0:0:1 - - [17/Aug/2020:15:06:50 +0530] "GET /new1/LoginServlet?uname=Admin&pwd=wipro@123 HTTP/1.1" 200 47

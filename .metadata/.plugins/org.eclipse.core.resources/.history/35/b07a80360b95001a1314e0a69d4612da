@@ -1,0 +1,40 @@
+import java.util.*; 
+import java.lang.*; 
+  
+public class j2{ 
+      
+  public static void main(String agrs[]) {
+  
+  int x,i,a,b;
+  for(i=0;i<=2;i++)
+  {
+	  System.out.println("Enter a number");
+	  Scanner sc=new Scanner(System.in);
+	  x=sc.nextInt();
+	  a=x%10;
+	  b=a;
+	  if(x!=0)
+	    {
+	        if(x>0)
+	        {
+	            System.out.println("Positive");
+	        }
+	        else
+	        {
+	            System.out.println("Negative");
+	        }
+	    }
+	 
+	 
+  }
+  if(a==b)
+  {
+	  System.out.println("True");
+  }
+  else
+  {
+	  System.out.println("false");
+  }
+  
+  }
+  }

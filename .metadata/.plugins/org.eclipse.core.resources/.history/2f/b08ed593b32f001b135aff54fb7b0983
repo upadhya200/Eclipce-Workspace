@@ -1,0 +1,19 @@
+public class lb12 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int n=962,i,rem,sum=0;
+int h[]=new int[10];
+while(n>0) {
+	rem=n%10;
+	h[rem]++;
+	n=n/10;
+}
+System.out.println();
+for(i=0;i<h.length;i++) {
+	if(h[i]%2==0)
+		sum=sum+h[i];
+}
+System.out.println(sum);
+	}
+
+}

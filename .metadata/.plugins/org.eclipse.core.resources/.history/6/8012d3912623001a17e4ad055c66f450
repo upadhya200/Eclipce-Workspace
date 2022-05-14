@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<select class='form-control' name='s1' id=city_id>
+  <option value=''>Select One City</option>
+  <option value='https://www.plus2net.com/jquery/listbox-redirect.php?city=london'>London</option>
+  <option value='https://www.plus2net.com/jquery/listbox-redirect.php?city=New York'>New York</option>
+  <option value='https://www.plus2net.com/jquery/listbox-redirect.php?city=New Delhi'>New Delhi</option>
+  <option value='https://www.plus2net.com/jquery/listbox-redirect.php?city=Paris'>Paris</option>
+
+</select>
+</body>
+</html>

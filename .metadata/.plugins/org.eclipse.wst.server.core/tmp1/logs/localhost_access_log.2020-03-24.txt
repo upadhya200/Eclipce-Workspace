@@ -1,0 +1,6 @@
+127.0.0.1 - - [24/Mar/2020:01:19:03 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [24/Mar/2020:01:19:05 +0530] "GET /PROJECT/std_profile.jsp HTTP/1.1" 200 594
+0:0:0:0:0:0:0:1 - - [24/Mar/2020:01:19:05 +0530] "GET /PROJECT/clouds.jpg HTTP/1.1" 404 1096
+0:0:0:0:0:0:0:1 - - [24/Mar/2020:01:19:32 +0530] "GET /PROJECT/std_profile.jsp HTTP/1.1" 200 594
+0:0:0:0:0:0:0:1 - - [24/Mar/2020:01:19:32 +0530] "GET /PROJECT/clouds.jpg HTTP/1.1" 404 1096
+0:0:0:0:0:0:0:1 - - [24/Mar/2020:01:20:18 +0530] "GET /PROJECT/studentlogin.jsp HTTP/1.1" 200 4619

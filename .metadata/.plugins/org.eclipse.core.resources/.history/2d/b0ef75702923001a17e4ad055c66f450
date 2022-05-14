@@ -1,0 +1,61 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+</style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+ padding:10px;
+  width:150px;
+  height:50px;
+}
+</style>
+</head>
+<body>
+
+<h2>List Group</h2>
+<p>Transform a basic list into a list group:</p>
+
+<ul>
+  <a href=www.adele.com><li>Adele</li></a>
+  <a href=www.agnes.com><li>Agnes</li></a>
+  <a href=www.billy.com><li>Billy</li></a>
+  <a href=www.bob.com><li>Bob</li></a>
+</ul>
+
+</body>
+</html>
